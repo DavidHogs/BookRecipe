@@ -1,22 +1,31 @@
-
+import java.util;
 /**
  * Write a description of class RecipeBook here.
  *
  * @author (your name)
  * @version (a version number or a date)
  */
-public class RecipeBook extends Recipe
+public class RecipeBook
+
+
 {
     // instance variables - replace the example below with your own
-    private int x;
-
+   
+    private Recipe r;
+    private String authors;
+    private int pages;
+    private String year;
+    private String recipe;
     /**
      * Constructor for objects of class RecipeBook
      */
     public RecipeBook()
     {
-        // initialise instance variables
-        x = 0;
+        Recipe r = new Recipe();
+        authors = "Denelds and David";
+        year = "2026";
+        pages = 30;
+        
     }
 
     /**
@@ -25,9 +34,22 @@ public class RecipeBook extends Recipe
      * @param  y  a sample parameter for a method
      * @return    the sum of x and y
      */
-    public int sampleMethod(int y)
+    public String getBookAuthors()
     {
-        // put your code here
-        return x + y;
+        return authors;
     }
+    public String getBookPages()
+    {
+        return pages;
+    }
+    public String getYearPublished()
+    {
+        return year;
+    }
+    public String getAllRecipes()
+    {
+        return recipes;
+    }
+    
+    
 }

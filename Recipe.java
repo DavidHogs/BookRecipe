@@ -8,15 +8,20 @@
 public class Recipe
 {
     // instance variables - replace the example below with your own
-    private int x;
+
+    private int time;
+    private String ingredients;
+    private int servings;
+    private String recipeType;
+    
 
     /**
      * Constructor for objects of class Recipe
      */
     public Recipe()
     {
-        // initialise instance variables
-        x = 0;
+      
+ 
     }
 
     /**
@@ -25,9 +30,21 @@ public class Recipe
      * @param  y  a sample parameter for a method
      * @return    the sum of x and y
      */
-    public int sampleMethod(int y)
+    public String getTypeOfRecipe()
     {
-        // put your code here
-        return x + y;
+        
+        
+    }
+    public String getIngredients()
+    {
+        
+    }
+    public int amountOfServings()
+    {
+        
+    }
+    public boolean isQuickToPrepare()
+    {
+        
     }
 }

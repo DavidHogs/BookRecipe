@@ -8,7 +8,9 @@
 public class MainDish extends Recipe
 {
     // instance variables - replace the example below with your own
-    private int x;
+
+    private String protein;
+    
 
     /**
      * Constructor for objects of class MainDish
@@ -16,7 +18,7 @@ public class MainDish extends Recipe
     public MainDish()
     {
         // initialise instance variables
-        x = 0;
+       
     }
 
     /**
@@ -25,9 +27,9 @@ public class MainDish extends Recipe
      * @param  y  a sample parameter for a method
      * @return    the sum of x and y
      */
-    public int sampleMethod(int y)
+    public boolean ContainsProtein()
     {
         // put your code here
-        return x + y;
+        
     }
 }
